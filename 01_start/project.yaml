@@ -1,6 +1,7 @@
 kind: project
 metadata:
   name: start-codespace
+  created: '2023-05-23T19:36:17.320763'
 spec:
   functions:
   - url: data_prep.py
@@ -12,3 +13,5 @@ spec:
   artifacts: []
   source: ''
   desired_state: online
+status:
+  state: online
