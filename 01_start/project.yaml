@@ -1,0 +1,14 @@
+kind: project
+metadata:
+  name: start-codespace
+spec:
+  functions:
+  - url: data_prep.py
+    name: data_prep
+    kind: job
+    image: mlrun/mlrun
+    handler: breast_cancer_generator
+  workflows: []
+  artifacts: []
+  source: ''
+  desired_state: online
