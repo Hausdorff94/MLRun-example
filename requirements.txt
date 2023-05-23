@@ -1,2 +1,10 @@
 mlrun
 scikit-learn
+jsonschema>=4.17.3
+black
+pytest
+pytest-cov
+pylint
+uvicorn
+sqlite3-to-mysql
+APScheduler
